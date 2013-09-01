@@ -1,0 +1,48 @@
+<div id="section-footer" class="text-center">
+    <div class="container">
+        <div class="row">
+            <p class="lead">Some kind of recap messaging here</p>
+            <div>
+                <a class="btn btn-large btn-primary" href="" id="hero-cta-footer">Get in touch</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <p class="pull-right">Add tech social icons here that link to profiles...</p>
+            <p class="pull-left"><small>All rights reserved. &copy; 2013 Brandon Scott</small></p>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script type="text/javascript" src="../assets/js/jquery.js"></script>-->
+<script type="text/javascript" src="../assets/js/scrollMonitor.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    var element = document.getElementById('hero-cta');
+    var elementWatcher = scrollMonitor.create(element);
+
+    elementWatcher.enterViewport(function() {
+        $('.navbar .container').css({
+            'border-bottom':'1px solid #D4D4D4'
+        });
+        $('.navbar').css({
+            'border-bottom':'none'
+        });
+    });
+
+    elementWatcher.exitViewport(function() {
+        $('.navbar .container').css({
+            'border-bottom':'none'
+        });
+        $('.navbar').css({
+            'border-bottom':'1px solid #DDD'
+        });
+    });
+</script>
+
+</body>
+</html>

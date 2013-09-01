@@ -1,0 +1,24 @@
+div[id^='section-'] {
+    padding: 20px 0;
+}
+
+#section-projects {
+    padding: 60px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #fff;
+    background-color: #08C;
+}
+
+#section-misc {
+    background-color: #EEE;
+}
+
+.hero-unit.secondary {
+    padding: 60px 60px 30px;
+}
+
+.hero-unit.secondary h1 {
+    font-size: 45px;
+}
