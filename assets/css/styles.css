@@ -38,3 +38,18 @@ div[id^='section-'] {
 /**
 * Projects
 **/
+
+/**
+* Footer
+**/
+
+div#section-footer .social,
+div#section-footer .copyright {
+    font-weight: 300;
+}
+
+div#section-footer .social a,
+div#section-footer .copyrigh a {
+    color: #333;
+    font-weight: 300;
+}
