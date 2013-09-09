@@ -1,17 +1,27 @@
 <div id="section-footer" class="text-center">
     <div class="container">
+        {% if page.id == 'home' %}
+        {% else %}
+        {% if page.id != 'home' %}
+        <hr>
+        {% endif %}
         <div class="row">
-            <p class="lead">Some kind of recap messaging here</p>
+            <p class="lead">Need help on an upcoming web project? I'm interested in learning more. Let's build.</p>
             <div>
                 <a class="btn btn-large btn-primary" href="" id="hero-cta-footer">Get in touch</a>
             </div>
         </div>
 
         <hr>
+        {% endif %}
 
         <div class="row">
-            <p class="pull-right">Add tech social icons here that link to profiles...</p>
-            <p class="pull-left"><small>All rights reserved. &copy; 2013 Brandon Scott</small></p>
+            <ul class="pull-right inline">
+                <li>LinkedIn</li>
+                <li>Github</li>
+                <li>@mail</li>
+            </ul>
+            <p class="pull-left">All rights reserved. &copy; 2013 Brandon Scott</p>
         </div>
     </div>
 </div>

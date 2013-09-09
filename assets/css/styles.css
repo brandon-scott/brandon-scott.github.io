@@ -1,3 +1,15 @@
+* {
+    font-weight: 300;
+}
+
+li {
+    line-height: 1.6em;
+}
+
+strong {
+    font-weight: 600;
+}
+
 div[id^='section-'] {
     padding: 20px 0;
 }
@@ -22,3 +34,7 @@ div[id^='section-'] {
 .hero-unit.secondary h1 {
     font-size: 45px;
 }
+
+/**
+* Projects
+**/

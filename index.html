@@ -7,14 +7,16 @@ id: home
 <div class="hero-unit">
     <div class="container text-center">
         <div><img src="../assets/img/bscott-hero-image.jpg" alt="" class="img-circle" /></div>
-        <h1>Developer by design</h1>
-        <p class="lead">I'm a full-stack web application engineer with experience in agile project management, team leadership, design and UX, SEO and online marketing practices. I'm passionate about building meaningful, yet measurable, data-driven web products that fulfill business goals and ultimately provide the end-users with an awesome experience.</p>
+        <h1>Developer by Design</h1>
+        <p class="lead">I'm a full-stack web application engineer with experience in agile project management, team leadership, design and UX, SEO and online marketing practices. I'm passionate about building web products that fulfill business goals and ultimately provide the end-user with an awesome experience.</p>
         <p class="lead">Hi, my name is <a>Brandon Scott</a>, by the way.</p>
         <div>
             <a class="btn btn-large btn-primary" href="" id="hero-cta">Get in touch</a>
         </div>
     </div>
 </div>
+
+{% if page.id == 'temp' %}
 
 <div id="section-experience">
     <div class="container text-center">
@@ -69,3 +71,5 @@ id: home
         </div>
     </div>
 </div>
+
+{% endif %}
