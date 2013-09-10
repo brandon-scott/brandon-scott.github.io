@@ -2,6 +2,15 @@
     font-weight: 300;
 }
 
+.btn.btn-default {
+    background-color: #eee;
+    color: #333;
+}
+
+.btn.btn-default:hover {
+    background-color: #ddd;
+}
+
 li {
     line-height: 1.6em;
 }
